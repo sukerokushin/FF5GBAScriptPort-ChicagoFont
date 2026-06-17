@@ -1,9 +1,22 @@
 # Final Fantasy V GBA Script Port - Legend of the Crystals Font Edit
 Untested. Work in progress.
 
-Using the Legend of the Crystals patch's assets as a basis, I recreated the GBA script port's special characters and ligatures with the LotC font table, adjusted the variable width definitions, and began the painstaking process of reformatting the entire game's scripts to fit with this new font width, all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor). Taking some inspiration from xJ4ck's own [Bigger Font patch](https://www.romhacking.net/hacks/9389/), I went and formatted the text to follow the official Chrono Trigger and the amazing FF4 Namingway/FF6 ROSE patches' conventions of adding spaces after linebreaks in dialogue with character names. I also had to pare down the GBA script's battle messages to fit, trying my hardest to keep the character voice and occasionally taking inspiration from how RPGe/LotC rendered their lines. The battle dialogue stuff is all very untested, however, so I would greatly appreciate reports in the issues tab, especially if you include saves/save states. This additionally undoes the translations' squared off menu/dialogue box frames in favor of the vanilla game's rounded corners.
+Using the Legend of the Crystals patch's assets as a basis, I:
+ - recreated the GBA script port's special characters and ligatures with the LotC font table,
+ - adjusted the variable width definitions, 
+ - and began the painstaking process of reformatting the entire game's scripts to fit with this new font width,
+all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor).
 
-tl;dr: Backported font commonly used in Square SNES RPGs and reformatted all GBA text to fit.
+Taking some inspiration from xJ4cks's [Bigger Font patch](https://www.romhacking.net/hacks/9389/) for the GBA script port, I also went and formatted the text to follow the Square SNES game conventions of adding spaces after linebreaks in dialogue with character names.
+
+I also had to pare down the GBA script's battle messages to fit within a single line, trying my hardest to keep the character voice and occasionally taking inspiration from how RPGe/LotC rendered their lines. 
+
+Additionally, I undid the GBA script port's squared off menu/dialogue box frames in favor of the vanilla game's rounded corners.
+
+## What to do if you find any typos, bugs, etc.
+
+Please report them here in the issues tab! If you're savvy enough, I accept pull requests too. All of the extracted game files are in common formats, so feel free to tinker for yourself.
+
 ## Tools used
 
 [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor) (text extraction/insertion, VWF table adjustment)
