@@ -1,2 +1,2 @@
-# FF5GBAScriptPortLotCFont
-Porting the Legend of the Crystals font table to the excellent GBA script port patch (WiP)
+# Final Fantasy V GBA Script Port - Legend of the Crystal Font Edit
+Work in progress
