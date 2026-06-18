@@ -10,7 +10,7 @@ all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noise
 
 Taking some inspiration from xJ4cks's [Bigger Font patch](https://www.romhacking.net/hacks/9389/) for the GBA script port, I also went and formatted the text to follow the convention of adding spaces after linebreaks in dialogue with character names.
 
-I also had to pare down the GBA script's battle messages to fit within a single line, trying my hardest to keep the character voice and occasionally taking inspiration from how RPGe/LotC rendered their lines. 
+I had to pare down the GBA script's battle messages to fit within a single line as well, trying my hardest to keep the character voice the whole time and on rare occasions taking inspiration from how RPGe/LotC rendered their lines. 
 
 Additionally, I undid the GBA script port's squared off menu/dialogue box frames in favor of the vanilla game's rounded corners.
 
@@ -20,11 +20,11 @@ Please report them here in the issues tab! If you're savvy enough, I accept pull
 
 ## Tools used
 
-[FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor) (text extraction/insertion, VWF table adjustment)
+[FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor) (text extraction/insertion, VWF table adjustment, pointer adjustment)
 
 [Notepad++](https://notepad-plus-plus.org/) (find+replace operations on extracted text, comparing multiple text dumps)
 
-[ImHex](https://imhex.werwolv.net/) (GBA script port analysis, i.e. the new BattleSpeech offset)
+[ImHex](https://imhex.werwolv.net/) (byte-level ROM analysis, i.e. finding the GBA script port's new BattleSpeech offset)
 
 [Paint.net](https://paint.net) (1bpp image editing)
 
