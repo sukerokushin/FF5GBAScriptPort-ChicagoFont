@@ -6,7 +6,7 @@ Using [the GBA script port](https://www.romhacking.net/hacks/3687/) as a basis, 
  - adjusted the variable width definitions, 
  - began the painstaking process of reformatting the entire game's dialogue to fit with this new font width,
  
-all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor).
+all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor). Huge thanks to noisecross and the rest of the FF5 Den Discord for helping me solve some real hard nuts to crack!
 
 Taking some inspiration from xJ4cks's [Bigger Font patch](https://www.romhacking.net/hacks/9389/) for the GBA script port, I also went and formatted the text to follow the convention of adding spaces after linebreaks in dialogue with character names.
 
