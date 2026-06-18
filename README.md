@@ -1,10 +1,11 @@
-# Final Fantasy V GBA Script Port - Legend of the Crystals Font Edit
+# Final Fantasy V GBA Script Port - Chicago Font Edit
 Untested. Work in progress.
 
-Using the Legend of the Crystals patch's assets as a basis, I:
- - recreated the GBA script port's special characters and ligatures with the LotC font table,
+Using [the GBA script port](https://www.romhacking.net/hacks/3687/) as a basis, I:
+ - recreated the GBA script port's special characters and ligatures in the great [Legend of the Crystals](https://www.romhacking.net/translations/2600/) hack's font table,
  - adjusted the variable width definitions, 
- - and began the painstaking process of reformatting the entire game's scripts to fit with this new font width,
+ - began the painstaking process of reformatting the entire game's dialogue to fit with this new font width,
+ 
 all done with noisecross's fantastic [FF5e Text Editor](https://github.com/noisecross/FF5e_Text_Editor).
 
 Taking some inspiration from xJ4cks's [Bigger Font patch](https://www.romhacking.net/hacks/9389/) for the GBA script port, I also went and formatted the text to follow the convention of adding spaces after linebreaks in dialogue with character names.
