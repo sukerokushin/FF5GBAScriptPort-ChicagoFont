@@ -1,4 +1,6 @@
 # Final Fantasy V GBA Script Port - Chicago Font Edit
+![Final Fantasy V GBA Script Port - Chicago Font Edit sample image](https://github.com/sukerokushin/FF5GBAScriptPort-ChicagoFont/blob/main/image1.png)
+
 Untested. Work in progress.
 
 Using [the GBA script port](https://www.romhacking.net/hacks/3687/) as a basis, I:
