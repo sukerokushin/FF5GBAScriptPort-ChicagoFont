@@ -12,7 +12,7 @@ Taking some inspiration from xJ4cks's [Bigger Font patch](https://www.romhacking
 
 I had to pare down the GBA script's battle messages to fit within a single line as well, trying my hardest to keep the character voice the whole time and on rare occasions taking inspiration from how RPGe/LotC rendered their lines. 
 
-Additionally, I undid the GBA script port's squared off menu/dialogue box frames in favor of the vanilla game's rounded corners.
+Additionally, I swapped out the GBA script port's squared off menu/dialogue box frames in favor of the vanilla game's rounded corners.
 
 ## What to do if you find any typos, bugs, etc.
 
